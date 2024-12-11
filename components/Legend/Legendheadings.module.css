@@ -1,0 +1,19 @@
+.heading {
+    font-size: .8rem;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+/* @media screen and (max-width: 1440px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+} */

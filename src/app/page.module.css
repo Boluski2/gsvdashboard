@@ -1,0 +1,24 @@
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "body" "body" "footer";
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+
+.deckgl {
+  flex: 1;
+  height: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  
+}

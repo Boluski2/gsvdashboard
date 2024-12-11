@@ -1,0 +1,45 @@
+.legend {
+    position: absolute;
+    top: 70px;
+    left: 1px;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 50;
+    color: white;
+    width: 210px;
+    height: 300px;
+    font-size: 11px;
+    height: max-content;
+    border: 1px solid black;
+}
+
+.base {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2px;
+}
+
+.State{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+    .legend {
+        width: 310px;
+    }
+    .State, .base {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+/* @media screen and (max-width: 1440px) {
+    .legend {
+        width: 410px;
+    }
+} */
